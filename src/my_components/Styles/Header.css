@@ -12,8 +12,8 @@
     justify-content: space-between;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: clamp(16px, 6vw, 192px);
-    padding-right: clamp(16px, 6vw, 192px);
+    padding-left: clamp(16px, 10vw, 192px);
+    padding-right: clamp(16px, 10vw, 192px);
 }
 
 .logo-container {
@@ -59,6 +59,9 @@
     background-color: #F57127 !important;
     padding: 4px 10px !important;
     color: white !important;
+    font-weight: bold !important;
+    line-height: 28px;
+    font-size: 20px;
 }
 
 .orange-btn:hover {
@@ -87,6 +90,10 @@
 @media screen and (max-width: 1286px) {}
 
 @media screen and (max-width: 1200px) {
+    .header-inner {
+        padding: 30px 20px;
+    }
+
     .header-right {
         display: none;
     }

@@ -1,0 +1,134 @@
+.banner-inner {
+    display: flex;
+    flex-direction: column;
+    padding-left: clamp(16px, 10vw, 192px);
+    padding-right: clamp(16px, 10vw, 192px);
+    padding-top: 10vh;
+    padding-bottom: 60px;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 5.6rem;
+    line-height: 1em;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #3C3C3C;
+    font-weight: 700;
+}
+
+h1 span {
+    color: #F57127;
+}
+
+.banner-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.banner-btns button {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+}
+
+.banner-btns button:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.orange-btn-banner {
+    background-color: #F57127;
+    color: white;
+}
+
+.download-btn {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.banner-vid-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-vid-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 11px;
+}
+
+.banner-btm-text {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.banner-btm-text h3 {
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 60px;
+    color: #3C3C3C;
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-inner {
+        padding: 10px 16px;
+    }
+
+    .banner-vid-container {
+        max-width: 800px;
+    }
+
+    h1 {
+        max-width: 730px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    h1 {
+        font-size: 48px;
+        padding-right: 60px;
+    }
+
+    .banner-vid-container {
+        max-width: 400px;
+    }
+
+    .banner-btns {
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    .banner-btm-text {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 499px) {
+    .banner-inner {
+        padding: 10px 8px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .banner-btm-text {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
