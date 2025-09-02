@@ -94,3 +94,9 @@
         display: flex !important;
     }
 }
+
+@media screen and (max-width: 499px) {
+    .header-inner {
+        padding: 28px 20px;
+    }
+}
