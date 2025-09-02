@@ -28,7 +28,9 @@ const Footer = () => {
         </div>
 
         <div className="footer-column">
+
           <h4> {`Let's be friends`}</h4>
+
           <ul>
             <li>Discord</li>
             <li>Twitter</li>
