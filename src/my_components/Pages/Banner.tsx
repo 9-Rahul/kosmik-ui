@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Banner.css";
-import { Archivo } from "next/font/google"; // ✅ Font import
+import { Archivo } from "next/font/google";
 
 const archivo = Archivo({
   weight: ["700"],

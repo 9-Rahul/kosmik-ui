@@ -124,11 +124,15 @@ h1 span {
     }
 
     h1 {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     .banner-btm-text {
         font-size: 22px;
         line-height: 36px;
+    }
+
+    .banner-btns button {
+        font-size: 18px;
     }
 }
