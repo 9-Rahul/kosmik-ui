@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
       <img
         className="eiffel "
-        src="/assets/Images/footer-pinImg.png"
+        src="/Assets/Images/footer-pinImg.png"
         alt="footer-pin-image"
       />
     </footer>

@@ -54,9 +54,9 @@ const Testimonials = () => {
           <div className="tweet-footer">
             <span className="tweet-time">4:30 PM · Apr 1, 2025</span>
             <div className="tweet-actions">
-              <img src="/assets/icons/heart.svg" alt="heart-icon" /> 211
-              <img src="/assets/icons/reply.svg" alt="reply-icon" />
-              <img src="/assets/icons/attachment.svg" alt="attachment-icon" />
+              <img src="/Assets/Icons/heart.svg" alt="heart-icon" /> 211
+              <img src="/Assets/Icons/reply.svg" alt="reply-icon" />
+              <img src="/Assets/Icons/attachment.svg" alt="attachment-icon" />
             </div>
             <button className="tweet-card-bottom-btn">
               <a href="#" className="tweet-replies">
@@ -105,9 +105,9 @@ const Testimonials = () => {
           <div className="tweet-footer">
             <span className="tweet-time">4:30 PM · Apr 1, 2025</span>
             <div className="tweet-actions">
-              <img src="/assets/icons/heart.svg" alt="heart-icon" /> 211
-              <img src="/assets/icons/reply.svg" alt="reply-icon" />
-              <img src="/assets/icons/attachment.svg" alt="attachment-icon" />
+              <img src="/Assets/Icons/heart.svg" alt="heart-icon" /> 211
+              <img src="/Assets/Icons/reply.svg" alt="reply-icon" />
+              <img src="/Assets/Icons/attachment.svg" alt="attachment-icon" />
             </div>
             <button className="tweet-card-bottom-btn">
               <a href="#" className="tweet-replies">
@@ -159,9 +159,9 @@ const Testimonials = () => {
           <div className="tweet-footer">
             <span className="tweet-time">4:30 PM · Apr 1, 2025</span>
             <div className="tweet-actions">
-              <img src="/assets/icons/heart.svg" alt="heart-icon" /> 211
-              <img src="/assets/icons/reply.svg" alt="reply-icon" />
-              <img src="/assets/icons/attachment.svg" alt="attachment-icon" />
+              <img src="/Assets/Icons/heart.svg" alt="heart-icon" /> 211
+              <img src="/Assets/Icons/reply.svg" alt="reply-icon" />
+              <img src="/Assets/Icons/attachment.svg" alt="attachment-icon" />
             </div>
             <button className="tweet-card-bottom-btn">
               <a href="#" className="tweet-replies">
@@ -209,9 +209,9 @@ const Testimonials = () => {
           <div className="tweet-footer">
             <span className="tweet-time">4:30 PM · Apr 1, 2025</span>
             <div className="tweet-actions">
-              <img src="/assets/icons/heart.svg" alt="heart-icon" /> 211
-              <img src="/assets/icons/reply.svg" alt="reply-icon" />
-              <img src="/assets/icons/attachment.svg" alt="attachment-icon" />
+              <img src="/Assets/Icons/heart.svg" alt="heart-icon" /> 211
+              <img src="/Assets/Icons/reply.svg" alt="reply-icon" />
+              <img src="/Assets/Icons/attachment.svg" alt="attachment-icon" />
             </div>
             <button className="tweet-card-bottom-btn">
               <a href="#" className="tweet-replies">
@@ -261,9 +261,9 @@ const Testimonials = () => {
           <div className="tweet-footer">
             <span className="tweet-time">4:30 PM · Apr 1, 2025</span>
             <div className="tweet-actions">
-              <img src="/assets/icons/heart.svg" alt="heart-icon" /> 211
-              <img src="/assets/icons/reply.svg" alt="reply-icon" />
-              <img src="/assets/icons/attachment.svg" alt="attachment-icon" />
+              <img src="/Assets/Icons/heart.svg" alt="heart-icon" /> 211
+              <img src="/Assets/Icons/reply.svg" alt="reply-icon" />
+              <img src="/Assets/Icons/attachment.svg" alt="attachment-icon" />
             </div>
             <button className="tweet-card-bottom-btn">
               <a href="#" className="tweet-replies">
@@ -311,9 +311,9 @@ const Testimonials = () => {
           <div className="tweet-footer">
             <span className="tweet-time">4:30 PM · Apr 1, 2025</span>
             <div className="tweet-actions">
-              <img src="/assets/icons/heart.svg" alt="heart-icon" /> 211
-              <img src="/assets/icons/reply.svg" alt="reply-icon" />
-              <img src="/assets/icons/attachment.svg" alt="attachment-icon" />
+              <img src="/Assets/Icons/heart.svg" alt="heart-icon" /> 211
+              <img src="/Assets/Icons/reply.svg" alt="reply-icon" />
+              <img src="/Assets/Icons/attachment.svg" alt="attachment-icon" />
             </div>
             <button className="tweet-card-bottom-btn">
               <a href="#" className="tweet-replies">

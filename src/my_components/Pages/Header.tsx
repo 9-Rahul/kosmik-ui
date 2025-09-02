@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header-outer">
       <div className="header-inner">
         <div className="logo-container">
-          <img src="/assets/icons/kosmik-logo.svg" alt="Kosmik Logo" />
+          <img src="/Assets/Icons/kosmik-logo.svg" alt="Kosmik Logo" />
         </div>
         <div className="header-right">
           <button>
@@ -34,7 +34,7 @@ const Header = () => {
           </button>
         </div>
         <div className="menu-icon-container">
-          <img src="/assets/icons/menu.svg" alt="menu-icon" />
+          <img src="/Assets/Icons/menu.svg" alt="menu-icon" />
         </div>
       </div>
     </header>

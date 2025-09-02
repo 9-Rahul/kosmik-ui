@@ -18,7 +18,7 @@ const Download = () => {
           <div className="card-header">
             <span className="platform-icon">
               <img
-                src="/assets/icons/apple-icon.svg"
+                src="/Assets/Icons/apple-icon.svg"
                 alt="apple-icon
               "
               />
@@ -43,7 +43,7 @@ const Download = () => {
           <div className="card-header">
             <span className="platform-icon">
               <img
-                src="/assets/icons/apple-icon.svg"
+                src="/Assets/Icons/apple-icon.svg"
                 alt="apple-icon
               "
               />
@@ -69,7 +69,7 @@ const Download = () => {
               <h2 className={archivo.className}>Kosmik web clipper</h2>
               <p style={{ fontFamily: "sans-serif", maxWidth: "547px" }}>
                 Bookmark pages in a click and explore them again in Kosmik. Save
-                images and texts, let Kosmik AI tag them to build your assets
+                images and texts, let Kosmik AI tag them to build your Assets
                 library.
               </p>
               <div className="button-group">
