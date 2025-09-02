@@ -12,8 +12,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-left: clamp(16px, 10vw, 192px);
-    padding-right: clamp(16px, 10vw, 192px);
     padding-top: 7vh;
     margin-bottom: 30px;
 }
@@ -68,9 +66,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .inner-cover {
-        padding: 10px 16px;
-    }
 
     .cover-text-and-vid-container {
         flex-direction: column;
@@ -83,7 +78,6 @@
 
 @media screen and (max-width: 499px) {
     .inner-cover {
-        padding: 10px 8px;
         text-align: left;
     }
 

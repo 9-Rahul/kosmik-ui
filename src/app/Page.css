@@ -8,5 +8,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: clamp(16px, 10vw, 192px);
+    padding-right: clamp(16px, 10vw, 192px);
+    background-color: #FFF8F5;
+}
 
+@media screen and (max-width: 1200px) {
+    .main {
+        padding: 10px 16px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .main {
+        padding: 10px 8px;
+    }
 }

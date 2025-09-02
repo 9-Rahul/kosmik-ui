@@ -1,0 +1,113 @@
+.download-outer {
+    padding-top: 60px;
+    font-family: sans-serif;
+}
+
+.dwnld-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.download-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    min-width: 558px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #444;
+    font-size: 16px;
+}
+
+.download-card:hover {
+    cursor: pointer;
+}
+
+.download-card:nth-child(3) {
+    flex: 1 1 calc(100%);
+}
+
+.card-left-and-right-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.download-card h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: "#3C3C3C";
+    line-height: 48px;
+}
+
+.download-card p {
+    font-size: 20px;
+    color: #555;
+    line-height: 28px;
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    letter-spacing: -0.4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    min-width: 50%;
+    box-shadow: 0 4px 12px rgba(187, 182, 182, 0.637);
+}
+
+.orange {
+    background-color: #f57127;
+    color: white;
+    box-shadow: 0 4px 12px rgba(187, 182, 182, 0.637);
+}
+
+.white {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 1200px) {
+    .download-card {
+        min-width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    .download-outer {
+        display: none;
+    }
+}
