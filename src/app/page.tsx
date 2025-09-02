@@ -4,6 +4,8 @@ import Banner from "@/my_components/Pages/Banner";
 import Cover from "@/my_components/Pages/Cover";
 import Download from "@/my_components/Pages/Download";
 import Testimonials from "@/my_components/Pages/Testimonials";
+import Footer from "@/my_components/Pages/Footer";
+import FooterBanner from "@/my_components/Pages/FooterBanner";
 export default function Home() {
   return (
     <>
@@ -13,6 +15,12 @@ export default function Home() {
         <Cover />
         <Download />
         <Testimonials />
+      </div>
+      <div className="footer">
+        <Footer />
+      </div>
+      <div className="footer-cover">
+        <FooterBanner />
       </div>
     </>
   );

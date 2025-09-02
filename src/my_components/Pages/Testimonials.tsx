@@ -184,8 +184,8 @@ const Testimonials = () => {
               />
             </div>
             <div>
-              <strong>dingyi</strong> <br />{" "}
-              <span className="username">@dingyi</span>
+              <strong>Burak</strong> <br />{" "}
+              <span className="username">@deiz_Burak</span>
             </div>
             <button
               style={{ position: "absolute", right: "20px" }}
